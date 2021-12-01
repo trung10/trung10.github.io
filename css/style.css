@@ -1,0 +1,222 @@
+body {
+  font-size: 18px;
+  color: #000;
+  background-color: #DCD0C0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Bree Serif', serif;
+}
+h2{
+  color: #fff;
+  text-decoration: none;
+}
+
+/** HEADER **/
+#header-nav {
+  /*background-color: #fff5ee;*/
+  border-radius: 0;
+  border: 0;
+
+}
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Chau Tran */
+  font-family: 'Bree Serif', serif;
+  color: white ;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  font-family: 'Bree Serif', serif;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all 0.1s;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 10px;
+}
+#nav-list a:hover {
+  background: grey;
+}
+#nav-list a span {
+  font-size: 2em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/* END HEADER*/
+
+/* HERO SECTION */
+/*Hero Modules*/
+#heroSec{
+  width: 100%;
+  margin: 50px auto;
+
+}
+.hero {
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+}
+.hero-primary {
+  background-color: #594a42;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.hero-primary.bg-image > img {
+  opacity: 0.55;
+}
+.hero-body { /*the content is on top of img*/
+  position: relative;
+}
+.hero-title {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 2.625em;
+}
+.hero-subtitle {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 1.500em;
+  font-weight: normal;
+}
+.hero-subtitle + button {
+  margin-top: 25px;
+}
+/*Background Modules*/
+.bg-image  {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.bg-image > img{
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+  min-width: 100%;
+}
+
+/* ABOUT ME*/
+hr{
+  width: 50%;
+  color: black;
+  opacity: 0.7;
+}
+#about-me li{
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.col-1-3> img{
+  height: 30rem;
+  width: auto;
+  border-radius: 50%;
+
+}
+section{
+  color: black;
+  font-family: 'Bree Serif', serif;
+  padding-top: 10px;
+}
+/*Project section*/
+#project-tiles span{
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #fff5ee;
+}
+#project-tiles a:hover, #project-tiles a:focus{
+  text-decoration: none;
+  font-family: 'Bree Serif', serif;
+}
+
+/*End of project section*/
+
+/* Individual project images*/
+.thumbnail img {
+   height: 355px;
+   width:100%;
+}
+.thumbnail img{
+  transition-property: all;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+.thumbnail img:hover {
+  transform: scale(1.1);
+  border-image: 10px solid black;
+}
+#code-proj span{
+  font-family: 'Bree Serif', serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+#code-proj span:hover, #code-proj span:focus{
+  text-decoration: none;
+}
+
+/*Footer*/
+.panel-footer {
+ margin-top: 30px;
+ padding-top: 35px;
+ padding-bottom: 30px;
+ background-color: #222;
+ border-top: 0;
+ font-family: 'Bree Serif', serif;
+}
+contact-info h2{
+  padding: 5px;
+ }
+.panel-footer div.row {
+ margin-bottom: 35px;
+}
+h4{
+  color: white;
+}
+
+#summary > span, #contact > span, #social-media > span {
+ font-size: 1.1em;
+}
+ .panel-footer section {
+   margin-bottom: 30px;
+   text-align: center;
+   color: #fff;
+   font-size: 1.3em;
+   line-height: 1.8;
+ }
+
+ .panel-footer section hr {
+   width: 50%;
+ }
+ .fa:hover{
+   text-decoration: none;
+ }
+
+/* End Footer */
